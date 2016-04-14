@@ -1,0 +1,47 @@
+[
+  {
+    "model": "wordproject.WordRecord",
+    "fields": {
+      "englishWord": "Joy",
+      "maoriWord": "Harikoa",
+      "dateCreated": "2016-03-31 13:35:20",
+      "dateUpdated": "2016-03-31 13:35:20"
+    }
+  },
+  {
+    "model": "wordproject.WordRecord",
+    "fields": {
+      "englishWord": "Action",
+      "maoriWord": "Mahi",
+      "dateCreated": "2016-03-31 13:35:20",
+      "dateUpdated": "2016-03-31 13:35:20"
+    }
+  },
+  {
+    "model": "wordproject.WordRecord",
+    "fields": {
+      "englishWord": "Abundance",
+      "maoriWord": "Ranea",
+      "dateCreated": "2016-03-31 13:35:20",
+      "dateUpdated": "2016-03-31 13:35:20"
+    }
+  },
+  {
+    "model": "wordproject.WordRecord",
+    "fields": {
+      "englishWord": "Aspire",
+      "maoriWord": "Wawata",
+      "dateCreated": "2016-03-31 13:35:20",
+      "dateUpdated": "2016-03-31 13:35:20"
+    }
+  },
+  {
+    "model": "wordproject.WordRecord",
+    "fields": {
+      "englishWord": "Perseverance",
+      "maoriWord": "Maia",
+      "dateCreated": "2016-03-31 13:35:20",
+      "dateUpdated": "2016-03-31 13:35:20"
+    }
+  }
+]
