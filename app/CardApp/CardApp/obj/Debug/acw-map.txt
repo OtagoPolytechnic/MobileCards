@@ -1,0 +1,4 @@
+CardApp.MainActivity, CardApp;md52dde7f670f37b797743b7d2bed4d2ad4.MainActivity
+CardApp.MainActivity, CardApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52dde7f670f37b797743b7d2bed4d2ad4.MainActivity
+CardApp.MainActivity;md52dde7f670f37b797743b7d2bed4d2ad4.MainActivity
+cardapp.MainActivity;md52dde7f670f37b797743b7d2bed4d2ad4.MainActivity
