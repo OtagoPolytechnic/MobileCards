@@ -1,64 +1,64 @@
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\CardApp.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\Mono.Android.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\mscorlib.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\SQLite-net.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\SQLitePCL.raw.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Core.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Xml.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Xml.Linq.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Collections.Concurrent.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Collections.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.ComponentModel.Annotations.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.ComponentModel.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.ComponentModel.EventBasedAsync.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Diagnostics.Contracts.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Diagnostics.Debug.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Diagnostics.Tools.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Diagnostics.Tracing.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Dynamic.Runtime.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Globalization.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.IO.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Linq.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Linq.Expressions.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Linq.Parallel.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Linq.Queryable.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Net.NetworkInformation.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Net.Primitives.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Net.Requests.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.ObjectModel.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Reflection.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Reflection.Emit.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Reflection.Emit.ILGeneration.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Reflection.Emit.Lightweight.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Reflection.Extensions.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Reflection.Primitives.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Resources.ResourceManager.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Runtime.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Runtime.Extensions.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Runtime.InteropServices.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Runtime.InteropServices.WindowsRuntime.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Runtime.Numerics.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Runtime.Serialization.Json.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Runtime.Serialization.Primitives.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Runtime.Serialization.Xml.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Security.Principal.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.ServiceModel.Http.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.ServiceModel.Primitives.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.ServiceModel.Security.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Text.Encoding.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Text.Encoding.Extensions.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Text.RegularExpressions.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Threading.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Threading.Tasks.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Threading.Tasks.Parallel.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Threading.Timer.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Xml.ReaderWriter.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Xml.XDocument.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Xml.XmlSerializer.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Runtime.Serialization.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.ServiceModel.Internals.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.ComponentModel.DataAnnotations.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.ComponentModel.Composition.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.Numerics.dll
-c:\users\alan\documents\visual studio 2015\Projects\CardApp\CardApp\obj\Debug\assemblies\System.ServiceModel.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\CardApp.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\Mono.Android.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\mscorlib.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\SQLite-net.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\SQLitePCL.raw.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Core.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Xml.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Xml.Linq.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Collections.Concurrent.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Collections.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.ComponentModel.Annotations.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.ComponentModel.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.ComponentModel.EventBasedAsync.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Diagnostics.Contracts.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Diagnostics.Debug.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Diagnostics.Tools.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Diagnostics.Tracing.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Dynamic.Runtime.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Globalization.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.IO.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Linq.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Linq.Expressions.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Linq.Parallel.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Linq.Queryable.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Net.NetworkInformation.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Net.Primitives.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Net.Requests.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.ObjectModel.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Reflection.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Reflection.Emit.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Reflection.Emit.ILGeneration.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Reflection.Emit.Lightweight.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Reflection.Extensions.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Reflection.Primitives.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Resources.ResourceManager.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Runtime.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Runtime.Extensions.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Runtime.InteropServices.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Runtime.Numerics.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Runtime.Serialization.Json.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Runtime.Serialization.Primitives.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Runtime.Serialization.Xml.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Security.Principal.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.ServiceModel.Http.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.ServiceModel.Primitives.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.ServiceModel.Security.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Text.Encoding.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Text.Encoding.Extensions.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Text.RegularExpressions.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Threading.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Threading.Tasks.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Threading.Tasks.Parallel.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Threading.Timer.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Xml.ReaderWriter.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Xml.XDocument.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Xml.XmlSerializer.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Runtime.Serialization.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.ServiceModel.Internals.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.ComponentModel.DataAnnotations.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.ComponentModel.Composition.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.Numerics.dll
+C:\Users\jacksct1\Desktop\MobileCards\app\CardApp\CardApp\obj\Debug\assemblies\System.ServiceModel.dll

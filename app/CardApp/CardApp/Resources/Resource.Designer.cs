@@ -41,6 +41,22 @@ namespace CardApp
 			}
 		}
 		
+		public partial class Dimension
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int backBtnPad = 2130968576;
+			
+			static Dimension()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Dimension()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
@@ -60,26 +76,38 @@ namespace CardApp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050005
-			public const int btn_Pre = 2131034117;
+			// aapt resource value: 0x7f060002
+			public const int btnBack = 2131099650;
 			
-			// aapt resource value: 0x7f050004
-			public const int btn_Translate = 2131034116;
+			// aapt resource value: 0x7f06000a
+			public const int btnDescription = 2131099658;
 			
-			// aapt resource value: 0x7f050000
-			public const int buttonNext = 2131034112;
+			// aapt resource value: 0x7f060008
+			public const int btn_Pre = 2131099656;
 			
-			// aapt resource value: 0x7f050001
-			public const int relativeLayout1 = 2131034113;
+			// aapt resource value: 0x7f060007
+			public const int btn_Translate = 2131099655;
 			
-			// aapt resource value: 0x7f050002
-			public const int relativeLayout2 = 2131034114;
+			// aapt resource value: 0x7f060003
+			public const int buttonNext = 2131099651;
 			
-			// aapt resource value: 0x7f050006
-			public const int tv_fling = 2131034118;
+			// aapt resource value: 0x7f060004
+			public const int relativeLayout1 = 2131099652;
 			
-			// aapt resource value: 0x7f050003
-			public const int wordText = 2131034115;
+			// aapt resource value: 0x7f060005
+			public const int relativeLayout2 = 2131099653;
+			
+			// aapt resource value: 0x7f060000
+			public const int tvMaoriWord = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int tvWordDescription = 2131099649;
+			
+			// aapt resource value: 0x7f060009
+			public const int tv_fling = 2131099657;
+			
+			// aapt resource value: 0x7f060006
+			public const int wordText = 2131099654;
 			
 			static Id()
 			{
@@ -95,7 +123,10 @@ namespace CardApp
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int description_layout = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int Main = 2130903041;
 			
 			static Layout()
 			{
@@ -110,11 +141,11 @@ namespace CardApp
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int ApplicationName = 2131034113;
 			
-			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int Hello = 2131034112;
 			
 			static String()
 			{

@@ -14,7 +14,7 @@ using SQLite;
 
 namespace CardApp
 {
-    public class Manager
+    public class Manager 
     {
         private Random rand;
         private Database _db;
