@@ -13,11 +13,24 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import url
+from django.conf.urls import url, include
 from django.contrib import admin
 from wordproject import views
+from rest_framework import routers, serializers, viewsets
+
+class UserSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = admin
+        fields = ('englishWord', 'maoriWord', 'dateCreated', 'dateUpdated', 'publish')
+
+class UserViewSet(viewsets.ModelViewSet):
+    queryset = admin.objects.all()
+    serializer_class = UserSerializer
+
+router = routers.DefaultRouter()
+router.register(r'users', UserViewSet)
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+    url(r'^admin/', admin.site.urls, include('rest_framework.urls', namespace='rest_framework')),
     url(r'^json/', views.word_json),
 ]
