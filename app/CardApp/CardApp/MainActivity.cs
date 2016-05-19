@@ -13,13 +13,14 @@ namespace CardApp
     public class MainActivity : Activity, GestureDetector.IOnGestureListener //Interface for Gesture Listener
     {
         private Manager manager; // Instance of Manager class
-        private GestureDetector _gestureDetector; // Gesture Detector - used for 
+        private GestureDetector gestureDetector; // Gesture Detector - used for 
         private Button btnNext; // Place holder button to go to the next word in word list
         private Button btnPre; // Place holder button to go to the previous word in word list
         private Button btnTranslate; // Place holder button to switch language of word
         private Button btnDescription; // Place holder button to switch to Desciption screen
         private TextView tv_WordText; // TextView where words are displayed
         private List<WordRecord> wordList; // List of words 
+		private TextView tv_flingText; // indicate direction of swipe
         
 
         protected override void OnCreate(Bundle bundle)
@@ -35,7 +36,7 @@ namespace CardApp
             //DateTime dt = new DateTime();
             //manager.AddWord("maoriTest", "englishTest", "Test description", dt, true);
 
-            _gestureDetector = new GestureDetector(this);
+            gestureDetector = new GestureDetector(this);
             
 
             // Declare Buttons, TextView, and Lists
@@ -52,7 +53,7 @@ namespace CardApp
            //NotificationHandler("IraCards", "New Words Added");
             
             // --- fling test ---
-            TextView tv_flingText = (TextView)FindViewById(Resource.Id.tv_fling);
+            tv_flingText = (TextView)FindViewById(Resource.Id.tv_fling);
             if (wordList.Count != 0)
             {
                 tv_WordText.Text = wordList[manager.CurrentWord].maoriWord;
@@ -110,11 +111,11 @@ namespace CardApp
             manager.printWordList();
         }
 
-        // Below methods used for gestures
-
-        public override bool OnTouchEvent(MotionEvent e)
+        
+		// Below methods used for gestures
+		public override bool OnTouchEvent(MotionEvent e)
         {
-            _gestureDetector.OnTouchEvent(e);
+            gestureDetector.OnTouchEvent(e);
             return false;
         }
 
@@ -123,12 +124,32 @@ namespace CardApp
             return false;
         }
 
-        public bool OnFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY)
-        {
-            TextView tv_flingText = (TextView)FindViewById(Resource.Id.tv_fling);
-            tv_flingText.Text = String.Format("Fling velocity: {0} x {1}", velocityX, velocityY);
-            return true;
-        }
+		public bool OnFling (MotionEvent e1, MotionEvent e2, float velocityX, float velocityY)
+		{
+			float differenceX = e1.GetX() - e2.GetX();
+			float differenceY = e1.GetY() - e2.GetY();
+
+			if (differenceX <= 30) {
+				if (e1.GetY() < e2.GetY()) {
+					tv_flingText.Text = "Swipe top to bottom.";
+				}
+				if (e1.GetY () > e2.GetY ()) {
+					tv_flingText.Text = "Swipe bottom to top.";
+				}
+			} else if (differenceY <= 30) {				
+				if (e1.GetX () < e2.GetX ()) {
+					tv_flingText.Text = "Swipe left to right.";
+				}
+				if (e1.GetX () > e2.GetX ()) {
+					tv_flingText.Text = "Swipe right to left.";
+				}
+			} else {
+				tv_flingText.Text = "Fat fingers!";
+			}
+
+
+			return false;
+		}
 
         public void OnLongPress(MotionEvent e)
         {
@@ -150,7 +171,8 @@ namespace CardApp
             return false;
         }
 
-        public void OnRestart()
+
+		protected override void OnRestart()
         {
             
         }
@@ -186,9 +208,6 @@ namespace CardApp
             const int notificationId = 0;
             notificationManager.Notify(notificationId, notification);
         }
-
-
-
     }
 }
 

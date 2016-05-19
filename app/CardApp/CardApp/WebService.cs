@@ -12,7 +12,7 @@ using System.IO;
 using Android.Widget;
 
 using System.Threading.Tasks;
-using System.Net.Http;
+//using System.Net.HttpClient;
 using System.Diagnostics;
 
 
@@ -27,12 +27,12 @@ namespace CardApp
 
        public async void DownloadDataAsync()
        {
-	        string url = "http://javatechig.com/api/get_category_posts/?dev=1&slug=android"
+			string url = "http://javatechig.com/api/get_category_posts/?dev=1&slug=android";
 	
-	        var httpClient = new HttpClient();
-	        Task<string> downloadTask = httpClient.GetStringAsync(url);
-	        string content = await downloadTask;	
-	        Console.Out.WriteLine("Response: \r\n {0}", content);
+	        //var httpClient = new HttpClient();
+	        //Task<string> downloadTask = httpClient.GetStringAsync(url);
+	        //string content = await downloadTask;	
+	        //Console.Out.WriteLine("Response: \r\n {0}", content);
 }
         
     }
