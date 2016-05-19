@@ -18,19 +18,25 @@ from django.contrib import admin
 from wordproject import views
 from rest_framework import routers, serializers, viewsets
 
+#Serializers define the API representation
 class UserSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = admin
         fields = ('englishWord', 'maoriWord', 'dateCreated', 'dateUpdated', 'publish')
 
+#Viewsets define the view behaviour
 class UserViewSet(viewsets.ModelViewSet):
-    queryset = admin.objects.all()
     serializer_class = UserSerializer
 
-router = routers.DefaultRouter()
-router.register(r'users', UserViewSet)
 
+#Routers provide an wasy way of automatically determining the URL conf.
+router = routers.DefaultRouter()
+router.register(r'admin', UserViewSet)
+
+#Wire up our API using automatic URL routing
+#Additionally, we can include login URLs for the browsable API
 urlpatterns = [
+    url(r'^', include(router.urls)),
     url(r'^admin/', admin.site.urls, include('rest_framework.urls', namespace='rest_framework')),
     url(r'^json/', views.word_json),
 ]
