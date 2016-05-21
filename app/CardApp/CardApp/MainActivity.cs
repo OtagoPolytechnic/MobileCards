@@ -129,14 +129,14 @@ namespace CardApp
 			float differenceX = e1.GetX() - e2.GetX();
 			float differenceY = e1.GetY() - e2.GetY();
 
-			if (differenceX <= 30) {
+			if (-10 <= differenceX <= 10) {
 				if (e1.GetY() < e2.GetY()) {
 					tv_flingText.Text = "Swipe top to bottom.";
 				}
 				if (e1.GetY () > e2.GetY ()) {
 					tv_flingText.Text = "Swipe bottom to top.";
 				}
-			} else if (differenceY <= 30) {				
+			} else if (-10 <= differenceY <= 10) {				
 				if (e1.GetX () < e2.GetX ()) {
 					tv_flingText.Text = "Swipe left to right.";
 				}
