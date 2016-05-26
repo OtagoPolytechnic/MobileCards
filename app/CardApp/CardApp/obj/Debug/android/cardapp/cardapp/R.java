@@ -25,6 +25,7 @@ public final class R {
         public static final int relativeLayout1=0x7f060004;
         public static final int relativeLayout2=0x7f060005;
         public static final int tvMaoriWord=0x7f060000;
+        public static final int tvTestetstetstet=0x7f06000b;
         public static final int tvWordDescription=0x7f060001;
         public static final int tv_fling=0x7f060009;
         public static final int wordText=0x7f060006;
@@ -32,6 +33,7 @@ public final class R {
     public static final class layout {
         public static final int description_layout=0x7f030000;
         public static final int main=0x7f030001;
+        public static final int splash_screen_layout=0x7f030002;
     }
     public static final class string {
         public static final int ApplicationName=0x7f050001;

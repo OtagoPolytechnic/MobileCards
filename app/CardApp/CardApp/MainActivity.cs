@@ -99,7 +99,7 @@ namespace CardApp
                 var desMaori = wordList[manager.CurrentWord].maoriWord;
                 var maoriDes = wordList[manager.CurrentWord].description;
                 
-                var toDesActivity = new Intent (this, typeof(DescriptionActivity));
+                var toDesActivity = new Intent (this, typeof(SpashScreenActivity));
                 toDesActivity.PutExtra ("MaoriWord", desMaori);
                 toDesActivity.PutExtra("MaoriDescription", maoriDes);
 

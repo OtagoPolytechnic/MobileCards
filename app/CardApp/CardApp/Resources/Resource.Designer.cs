@@ -100,6 +100,9 @@ namespace CardApp
 			// aapt resource value: 0x7f060000
 			public const int tvMaoriWord = 2131099648;
 			
+			// aapt resource value: 0x7f06000b
+			public const int tvTestetstetstet = 2131099659;
+			
 			// aapt resource value: 0x7f060001
 			public const int tvWordDescription = 2131099649;
 			
@@ -127,6 +130,9 @@ namespace CardApp
 			
 			// aapt resource value: 0x7f030001
 			public const int Main = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int Splash_Screen_Layout = 2130903042;
 			
 			static Layout()
 			{

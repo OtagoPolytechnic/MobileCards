@@ -1,8 +1,0 @@
-CardApp.DescriptionActivity, CardApp;md52dde7f670f37b797743b7d2bed4d2ad4.DescriptionActivity
-CardApp.DescriptionActivity, CardApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52dde7f670f37b797743b7d2bed4d2ad4.DescriptionActivity
-CardApp.DescriptionActivity;md52dde7f670f37b797743b7d2bed4d2ad4.DescriptionActivity
-cardapp.DescriptionActivity;md52dde7f670f37b797743b7d2bed4d2ad4.DescriptionActivity
-CardApp.MainActivity, CardApp;md52dde7f670f37b797743b7d2bed4d2ad4.MainActivity
-CardApp.MainActivity, CardApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52dde7f670f37b797743b7d2bed4d2ad4.MainActivity
-CardApp.MainActivity;md52dde7f670f37b797743b7d2bed4d2ad4.MainActivity
-cardapp.MainActivity;md52dde7f670f37b797743b7d2bed4d2ad4.MainActivity
