@@ -139,9 +139,25 @@ namespace CardApp
 			} else if (-10 <= differenceY <= 10) {				
 				if (e1.GetX () < e2.GetX ()) {
 					tv_flingText.Text = "Swipe left to right.";
+					if (manager.CurrentWord != 0)
+					{
+						manager.CurrentWord--;
+						tv_WordText.Text = wordList[manager.CurrentWord].maoriWord;
+						Console.WriteLine("current word # = " + manager.CurrentWord);
+					}
+					else
+						Console.WriteLine("Reached start of list");
 				}
 				if (e1.GetX () > e2.GetX ()) {
 					tv_flingText.Text = "Swipe right to left.";
+					if (manager.CurrentWord != 0)
+					{
+						manager.CurrentWord--;
+						tv_WordText.Text = wordList[manager.CurrentWord].maoriWord;
+						Console.WriteLine("current word # = " + manager.CurrentWord);
+					}
+					else
+						Console.WriteLine("Reached start of list");
 				}
 			} else {
 				tv_flingText.Text = "Fat fingers!";
