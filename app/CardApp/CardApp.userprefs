@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus_5_API_23_x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="CardApp\MainActivity.cs">
     <Files>
-      <File FileName="CardApp\MainActivity.cs" Line="145" Column="6" />
+      <File FileName="CardApp\MainActivity.cs" Line="146" Column="55" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
