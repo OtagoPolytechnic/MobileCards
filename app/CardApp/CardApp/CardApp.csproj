@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DescriptionActivity.cs" />
+    <Compile Include="HttpClient.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Manager.cs" />
     <Compile Include="Resources\Database.cs" />
