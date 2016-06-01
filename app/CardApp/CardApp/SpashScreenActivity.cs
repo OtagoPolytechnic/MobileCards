@@ -43,20 +43,20 @@ namespace CardApp
 
         static async Task RunAsync()
         {
-            using (var client = new HttpClient())
-            {
+            //using (var client = new HttpClient())
+            //{
                 //To be added - Base address
-                client.BaseAddress = new Uri("");
-                client.DefaultRequestHeaders.Accept.Clear();
-                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+               // client.BaseAddress = new Uri("");
+                //client.DefaultRequestHeaders.Accept.Clear();
+                //client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
                 // HTTP GET
-                HttpResponseMessage response = await client.GetAsync("api/words/1");
-                if (response.IsSuccessStatusCode)
-                {
-                    JsonArrayAttribute newDelEditData = await response.Content.ReadAsAsync<JsonArrayAttribute>();
+               // HttpResponseMessage response = await client.GetAsync("api/words/1");
+                //if (response.IsSuccessStatusCode)
+               // {
+                    //JsonArrayAttribute newDelEditData = await response.Content.ReadAsAsync<JsonArrayAttribute>();
                     
-                }
+               // }
 
            
         }
