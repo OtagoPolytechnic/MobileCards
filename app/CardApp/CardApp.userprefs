@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="CardApp\CardApp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus_5_API_23_x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CardApp\MainActivity.cs">
+    <Files>
+      <File FileName="CardApp\MainActivity.cs" Line="146" Column="55" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CardApp AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>
