@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPlatformApp", "XPlatformApp\XPlatformApp.csproj", "{2C250F92-2853-42C0-B0E8-8A6776EEE9AD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableClassLibrary", "PortableClassLibrary\PortableClassLibrary.csproj", "{A90BACAD-6871-4C9D-8602-C44292DF0C0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardAppAndroid", "CardAppAndroid\CardAppAndroid.csproj", "{61A1508C-8A8B-4D0A-9DB2-BB21A9D84F76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2C250F92-2853-42C0-B0E8-8A6776EEE9AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2C250F92-2853-42C0-B0E8-8A6776EEE9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2C250F92-2853-42C0-B0E8-8A6776EEE9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2C250F92-2853-42C0-B0E8-8A6776EEE9AD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A90BACAD-6871-4C9D-8602-C44292DF0C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A90BACAD-6871-4C9D-8602-C44292DF0C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A90BACAD-6871-4C9D-8602-C44292DF0C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A90BACAD-6871-4C9D-8602-C44292DF0C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61A1508C-8A8B-4D0A-9DB2-BB21A9D84F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A1508C-8A8B-4D0A-9DB2-BB21A9D84F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A1508C-8A8B-4D0A-9DB2-BB21A9D84F76}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{61A1508C-8A8B-4D0A-9DB2-BB21A9D84F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A1508C-8A8B-4D0A-9DB2-BB21A9D84F76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61A1508C-8A8B-4D0A-9DB2-BB21A9D84F76}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
