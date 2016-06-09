@@ -1,1 +1,12 @@
-﻿<Properties StartupItem="XPlatformApp\XPlatformApp.csproj" />
+﻿<Properties StartupItem="XPlatformApp\XPlatformApp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XPlatformApp\MyClass.cs">
+    <Files>
+      <File FileName="XPlatformApp\MyClass.cs" Line="8" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
