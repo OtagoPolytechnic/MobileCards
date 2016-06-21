@@ -1,6 +1,7 @@
 app/CardApp/CardApp.v12.suo
 app/CardApp/CardApp/obj/Debug/
 app/CardApp/CardApp/bin/Debug
+
 app/XPlatformApp/XPlatformApp.v12.suo
 app/XPlatformApp/XPlatformApp/obj/Debug/
 app/XPlatformApp/XPlatformApp/bin/Debug
@@ -9,3 +10,17 @@ app/XPlatformApp/PortableClassLibrary/obj/Debug/
 app/XPlatformApp/XPlatformApp.v12.suo
 app/XPlatformApp/CardAppAndroid/obj/Debug/
 app/XPlatformApp/PortableClassLibrary/obj/Debug/
+app/XPlatformApp/XPlatformApp.v12.suo
+app/XPlatformApp/XPlatformApp/obj/Debug/
+app/XPlatformApp/XPlatformApp/bin/Debug
+
+app/CarouselTest/CarouselTest.v12.suo
+app/CarouselTest/CarouselTest/obj/Debug/
+app/CarouselTest/CarouselTest/bin/Debug
+app/CarouselTest/CarouselTest/CarouselTest/obj/Debug/
+app/CarouselTest/CarouselTest/CarouselTest.iOS/Resources/
+app/CarouselTest/packages/
+app/CarouselTest/CarouselTest/CarouselTest/bin/Debug/
+app/CarouselTest/CarouselTest/CarouselTest.WinPhone/
+app/CarouselTest/CarouselTest/CarouselTest.Droid/obj/Debug/
+app/CarouselTest/CarouselTest/CarouselTest.Windows/
