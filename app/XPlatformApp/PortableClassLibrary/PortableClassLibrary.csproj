@@ -34,8 +34,10 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CarouselPage.cs" />
     <Compile Include="DescriptionActivity.cs" />
     <Compile Include="HttpClient.cs" />
     <Compile Include="MainActivity.cs" />
