@@ -17,10 +17,11 @@ app/XPlatformApp/XPlatformApp/bin/Debug
 app/CarouselTest/CarouselTest.v12.suo
 app/CarouselTest/CarouselTest/obj/Debug/
 app/CarouselTest/CarouselTest/bin/Debug
-app/CarouselTest/CarouselTest/CarouselTest/obj/Debug/
 app/CarouselTest/CarouselTest/CarouselTest.iOS/Resources/
 app/CarouselTest/packages/
 app/CarouselTest/CarouselTest/CarouselTest/bin/Debug/
 app/CarouselTest/CarouselTest/CarouselTest.WinPhone/
 app/CarouselTest/CarouselTest/CarouselTest.Droid/obj/Debug/
+app/CarouselTest/CarouselTest/CarouselTest/obj/Debug/
 app/CarouselTest/CarouselTest/CarouselTest.Windows/
+app/CarouselTest/CarouselTest/CarouselTest.Droid/bin/Debug/

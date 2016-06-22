@@ -11,7 +11,7 @@ namespace CarouselTest
     {
         public App()
         {
-            // The root page of your application
+            // The root page of the application
             List<ContentPage> pages = new List<ContentPage>(0);
             string[] words = { "Matariki", "Manaaki", "Haora" };
             foreach (string w in words)
