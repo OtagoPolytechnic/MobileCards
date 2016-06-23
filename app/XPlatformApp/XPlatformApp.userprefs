@@ -1,12 +1,24 @@
-﻿<Properties StartupItem="XPlatformApp\XPlatformApp.csproj">
+﻿<Properties StartupItem="CardAppAndroid\CardAppAndroid.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="XPlatformApp\MyClass.cs">
-    <Files>
-      <File FileName="XPlatformApp\MyClass.cs" Line="8" Column="4" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CardAppAndroid PreferredExecutionTarget="Android.Nexus_5_API_23_x86" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PortableClassLibrary\Manager.cs">
+    <Files>
+      <File FileName="PortableClassLibrary\Manager.cs" Line="12" Column="24" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XPlatformApp" expanded="True">
+            <Node name="PortableClassLibrary" expanded="True">
+              <Node name="Manager.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
 </Properties>

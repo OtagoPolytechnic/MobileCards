@@ -11,8 +11,9 @@ namespace CarouselTest
     {
         public App()
         {
-            // The root page of the application
+            //making a list of pages
             List<ContentPage> pages = new List<ContentPage>(0);
+			//need to fecth words from DB
             string[] words = { "Matariki", "Manaaki", "Haora" };
             foreach (string w in words)
             {
@@ -30,7 +31,8 @@ namespace CarouselTest
                 });
             }
 
-            MainPage = new CarouselPage
+			// The root page of the application
+			MainPage = new CarouselPage
             {
                 Children =
                 {
