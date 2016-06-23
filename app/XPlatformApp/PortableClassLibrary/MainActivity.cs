@@ -71,7 +71,7 @@ namespace CardApp
                     tv_WordText.Text = wordList[manager.CurrentWord].maoriWord;
                 }
                 else
-                    Console.WriteLine("Reached end of list");
+					System.Diagnostics.Debug.WriteLine("Reached end of list");
             };
 
             btnPre.Click += delegate
@@ -80,18 +80,18 @@ namespace CardApp
                 {
                     manager.CurrentWord--;
                     tv_WordText.Text = wordList[manager.CurrentWord].maoriWord;
-                    Console.WriteLine("current word # = " + manager.CurrentWord);
+                    System.Diagnostics.Debug.WriteLine("current word # = " + manager.CurrentWord);
                 }
                 else
-                    Console.WriteLine("Reached start of list");
+                    System.Diagnostics.Debug.WriteLine("Reached start of list");
             };
 
             btnTranslate.Click += delegate
             {
                 string str = manager.translateWord(wordList[manager.CurrentWord], tv_WordText.Text);
-                Console.WriteLine("before:" + tv_WordText.Text + " == " + wordList[manager.CurrentWord].maoriWord);
+                System.Diagnostics.Debug.WriteLine("before:" + tv_WordText.Text + " == " + wordList[manager.CurrentWord].maoriWord);
                 tv_WordText.Text = str;
-                Console.WriteLine("after:" + tv_WordText.Text);
+                System.Diagnostics.Debug.WriteLine("after:" + tv_WordText.Text);
             };
 
             btnDescription.Click += delegate
@@ -130,24 +130,24 @@ namespace CardApp
 			float differenceX = e1.GetX() - e2.GetX();
 			float differenceY = e1.GetY() - e2.GetY();
 
-			if (-10 <= differenceX <= 10) {
+			if ((-10 <= differenceX)||(differenceX <= 10)) {
 				if (e1.GetY() < e2.GetY()) {
 					tv_flingText.Text = "Swipe top to bottom.";
 				}
 				if (e1.GetY () > e2.GetY ()) {
 					tv_flingText.Text = "Swipe bottom to top.";
 				}
-			} else if (-10 <= differenceY <= 10) {				
+			} else if ((-10 <= differenceY)||(differenceY <= 10)) {				
 				if (e1.GetX () < e2.GetX ()) {
 					tv_flingText.Text = "Swipe left to right.";
 					if (manager.CurrentWord != 0)
 					{
 						manager.CurrentWord--;
 						tv_WordText.Text = wordList[manager.CurrentWord].maoriWord;
-						Console.WriteLine("current word # = " + manager.CurrentWord);
+						System.Diagnostics.Debug.WriteLine("current word # = " + manager.CurrentWord);
 					}
 					else
-						Console.WriteLine("Reached start of list");
+						System.Diagnostics.Debug.WriteLine("Reached start of list");
 				}
 				if (e1.GetX () > e2.GetX ()) {
 					tv_flingText.Text = "Swipe right to left.";
@@ -155,10 +155,10 @@ namespace CardApp
 					{
 						manager.CurrentWord--;
 						tv_WordText.Text = wordList[manager.CurrentWord].maoriWord;
-						Console.WriteLine("current word # = " + manager.CurrentWord);
+						System.Diagnostics.Debug.WriteLine("current word # = " + manager.CurrentWord);
 					}
 					else
-						Console.WriteLine("Reached start of list");
+						System.Diagnostics.Debug.WriteLine("Reached start of list");
 				}
 			} else {
 				tv_flingText.Text = "Fat fingers!";
@@ -216,7 +216,7 @@ namespace CardApp
             .SetContentText(message)
             .SetDefaults(NotificationDefaults.Sound | NotificationDefaults.Vibrate)
             .SetContentIntent(pendingIntent)
-            .SetSmallIcon(Resource.Drawable.Icon);
+            //.SetSmallIcon(Resource.Drawable.Icon);
 
             Notification notification = builder.Build();
 

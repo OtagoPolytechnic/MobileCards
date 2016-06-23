@@ -9,7 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using SQLite;
+using CardApp.Resources;
 
 namespace CardApp
 {
@@ -35,7 +35,7 @@ namespace CardApp
             currentWord = 0;
             wordsList = new List<WordRecord>();
             string folder = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-			_db = new Database(System.IO.Path.Combine(folder, "words.db"));
+            _db = new Database(System.IO.Path.Combine(folder, "words.db"));
             makeWordList();
         }
 
@@ -65,7 +65,7 @@ namespace CardApp
                 currentWord++;
             }
             else
-                System.Diagnostics.Debug.WriteLine("Reached end of list");
+                Console.WriteLine("Reached end of list");
         }
         // decrement current word
         public void decrementCurrentWord()
@@ -75,7 +75,7 @@ namespace CardApp
                 currentWord--;
             }
             else
-                System.Diagnostics.Debug.WriteLine("Reached start of list");
+                Console.WriteLine("Reached start of list");
         }
         // returns translated word
         public string translateWord(WordRecord obj, string sub)
@@ -112,7 +112,7 @@ namespace CardApp
         {
             foreach (var w in wordsList)
             {
-                System.Diagnostics.Debug.WriteLine(w);
+                Console.WriteLine(w);
             }
         }
     }

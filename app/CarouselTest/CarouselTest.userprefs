@@ -4,10 +4,9 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="CarouselTest\CarouselTest.Droid\MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CarouselTest\CarouselTest\App.cs">
     <Files>
-      <File FileName="CarouselTest\CarouselTest.Droid\MainActivity.cs" Line="11" Column="2" />
-      <File FileName="CarouselTest\CarouselTest\App.cs" Line="29" Column="22" />
+      <File FileName="CarouselTest\CarouselTest\App.cs" Line="10" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.CarouselTest.Droid PreferredExecutionTarget="Android.22bf558f" />
